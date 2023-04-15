@@ -1,0 +1,36 @@
+#special_area {
+  width:100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  border: 1px solid black;
+  padding: 20px 20px 20px;
+}
+
+#special_area > div:nth-child(1) {
+  width:60%;
+  height:540px;
+  border: 1px solid black;
+  background-image: url(../ASSET/collaboration-pc-1.avif);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+} 
+
+#special_area > div:nth-child(2) {
+  width:40%;
+  height:540px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:30px 30px 0px;
+} 
+
+#special_area > div:nth-child(2) > p {
+  font-size: 13px;
+  line-height: 20px;
+} 
+
+

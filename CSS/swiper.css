@@ -1,0 +1,47 @@
+.swiper {
+  width:900px;
+  height:120px;
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper > li {
+  width:65px;
+  height:65px;
+  background-color: gray;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  flex-direction: column;
+  cursor: pointer;
+
+}
+
+.swiper > li:hover {
+  border: 2px solid black;
+  transition: 2s;
+}
+
+.swiper > li > div {
+  width:65px;
+  height:20px;
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  color: rgb(63, 63, 63);
+
+}
+
+
+
