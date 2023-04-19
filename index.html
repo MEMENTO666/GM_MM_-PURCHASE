@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/wrapper.css"/>
   <link rel="stylesheet" href="CSS/header.css"/>
   <link rel="stylesheet" href="CSS/swiper.css"/>
   <link rel="stylesheet" href="CSS/section_01.css"/>
   <link rel="stylesheet" href="CSS/special_area.css"/>
   <link rel="stylesheet" href="CSS/product_section.css"/>
+  <link rel="stylesheet" href="CSS/footer.css"/>
 
   <title>GM_MM_PURCHASE</title>
 </head>
+
 <body>
   <div id="wrapper">
     <div id="header">
@@ -66,94 +69,493 @@
     </div>
 
     <div id="product_section">
-      <li><img src="./ASSET/1.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라 – MM003 W2</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/2.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라 – MM003 01</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/3.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라 – MM003 L2</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/4.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라 – MM003 OL3</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/5.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라 – MM004 G10</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/1.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라 – MM004 W2</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/1.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/1.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/1.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      <li><img src="./ASSET/1.avif">
-        <div>
-          <button class="heart"></button>
-          <p style="font-weight: bold;">메종 마르지엘라</p>
-          <p>재입고예정</p>
-          <p style="color:rgb(107, 107, 107)">+<span style="color:rgb(212, 0, 0); font-size: 11px;" >4</span> Colors</p>
-        </div>
-      </li>
-      
-      
-    </div>
 
-  </div>
+      <!-- ******* 01 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/1.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/1_1.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 02 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/2.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/2_2.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 03 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching3" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/3.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/3_3.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 04 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching4" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/4.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/4_4.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 05 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching5" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/5.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/5_5.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching5" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching5" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 06 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching6" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/6.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/6_6.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching6" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching6" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 07 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching7">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/7.avif" class="d-block w-100">
+          </div>
+        </div>
+        <div id="product_image_text">
+        </div>
+      </div>
+
+      <!-- ******* 08 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching8" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/8.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/8_8.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching8" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching8" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 09 product ******* -->
+      
+      <div id="carouselExampleControlsNoTouching9" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/9.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/9_9.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching9" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching9" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 10 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching10" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/10.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/10_10.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching10" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching10" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 11 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching11" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/11.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/11_11.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching11" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching11" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 12 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching12" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/12.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/12_12.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching12" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching12" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 13 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching13">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/15.avif" class="d-block w-100">
+          </div>
+        </div>
+        <div id="product_image_text">
+        </div>
+      </div>
+
+      <!-- ******* 14 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching14" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/14.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/14_14.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching14" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching14" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+
+      <!-- ******* 15 product ******* -->
+
+      <div id="carouselExampleControlsNoTouching15" class="carousel slide" data-bs-touch="false">
+        <div class="product_image">
+          <div class="carousel-item active">
+            <img src="./ASSET/13.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ASSET/13_13.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching15" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching15" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div id="product_image_text">
+          <p>메종 마르지엘라 - MM003 W3</p>
+          <p>재입고 예정</p>
+          <p>+<span style="color: red;">4</span> Colors</p>
+        </div>
+      </div>
+      </div>
+      <div id="footer">
+        <div class="footer_list">
+          <ul><p>고객 서비스</p>
+            <li>문의</li>
+            <li>배송</li>
+            <li>서비스</li>
+            <li>교환 및 반품</li>
+            <li>주문조회</li>
+            <li>주문취소</li>
+            <li>매장 픽업 서비스</li>
+            <li>수리서비스 가이드</li>
+            <li>제품 사용 가이드</li>
+            <li>시리얼 넘버 조회</li>
+          </ul>
+        </div>
+        <div class="footer_list">
+          <ul><p>법적 고지</p>
+            <li>공지사항</li>
+            <li>이용약관</li>
+            <li>개인정보처리방침</li>
+            <li>쿠키정책</li>
+            <li>기프트카드 이용약관</li>
+          </ul>
+        </div>
+        <div class="footer_list">
+          <ul><p>소셜 미디어</p>
+            <li>페이스북</li>
+            <li>인스타그램</li>
+            <li>유튜브</li>
+            <li>트위터</li>
+            <li>카카오톡</li>
+            <li>핀터레스트</li>
+            <li>위쳇</li>
+            <li>웨이보</li>
+          </ul>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <p>고객 서비스</p>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <li>문의</li>
+                <li>배송</li>
+                <li>서비스</li>
+                <li>교환 및 반품</li>
+                <li>주문조회</li>
+                <li>주문취소</li>
+                <li>매장 픽업 서비스</li>
+                <li>수리서비스 가이드</li>
+                <li>제품 사용 가이드</li>
+                <li>시리얼 넘버 조회</li>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <p>법적 고지</p>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <li>공지사항</li>
+                <li>이용약관</li>
+                <li>개인정보처리방침</li>
+                <li>쿠키 정책</li>
+                <li>기프트카드 이용약관</li>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p>소셜 미디어</p>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <li>페이스북</li>
+                <li>인스타그램</li>
+                <li>유튜브</li>
+                <li>트위터</li>
+                <li>카카오톡</li>
+                <li>핀터레스트</li>
+                <li>위쳇</li>
+                <li>웨이보</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="copyright">
+        <div><p>©2023 GENTLE MONSTER</p></div>
+        <div>
+        <p>
+        주) Anonymous | 대표자명: Anonymous | 사업자번호: 119-666-888 | 통신판매신고번호: 제 2023-대전서구-666 호 (사업자 정보 확인) | 개인정보보호책임자: Anonymous | 주소: 대전광역시 | 대표번호: XXXX-XXXX
+        </p>
+        </div>
+      </div>
+
+
+    </div>
 
 
   <script src="./heart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 
 </body>

@@ -26,9 +26,16 @@
 
 }
 
+.swiper > li > div > p{
+ margin: 0;
+
+}
+
+
+
 .swiper > li:hover {
-  border: 2px solid black;
-  transition: 2s;
+  border-style: double;
+  /* transition: 2s; */
 }
 
 .swiper > li > div {

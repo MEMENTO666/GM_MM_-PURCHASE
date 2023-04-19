@@ -9,3 +9,7 @@
   font-weight: bold;
 }
 
+#Collaboration_text > p {
+  margin: 0;
+}
+
