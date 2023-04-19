@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  background-color: white;
+  background-color: rgb(241, 241, 241);
   padding:0px 50px 0px 50px;
 
 }
@@ -38,8 +38,7 @@
 
 .accordion {
   --bs-accordion-active-color: black;
-  --bs-accordion-active-bg: #ffffff;
-
+  --bs-accordion-active-bg: rgb(241, 241, 241);
 }
 
 .accordion-button > p {
@@ -51,6 +50,8 @@
 
 .accordion-button {
   width:97vw;
+  background-color: rgb(241, 241, 241);
+
 }
 
 .accordion-body {
@@ -58,11 +59,14 @@
   font-size: 13px;
   line-height: 30px;
   color: #858585;
+  background-color: rgb(241, 241, 241);
+
 }
 
 .accordion-body > li {
   cursor: pointer;
   width:fit-content;
+  
 }
 
 
@@ -72,7 +76,7 @@
   /* border: 1px solid black; */
   display: flex;
   padding:0px 50px 0px 50px;
-  background-color: white;
+  background-color: rgb(241, 241, 241);
   color: #343434;
 
 }
@@ -121,6 +125,8 @@
     padding:0px;
     flex-direction: column;
     margin-top: 30px;
+    background-color: white;
+
   
   }
 

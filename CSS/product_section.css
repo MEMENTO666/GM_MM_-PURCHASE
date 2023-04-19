@@ -9,12 +9,13 @@
 }
 
 #product_section > div {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 5px;
+  cursor: pointer;
 }
 
 #carouselExampleControlsNoTouching {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .carousel slide {
@@ -60,7 +61,7 @@
 #product_image_text {
   width: 300px;
   height: 70px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 5px;
 }
 
@@ -79,4 +80,36 @@
 
 #product_image_text > p:nth-child(3) {
   font-size: 11px;
+}
+
+@media screen and (max-width:768px) {
+  #product_section > div {
+    border: 1px solid red;
+    margin: 5px;
+    cursor: pointer;
+    width:220px;
+    height: 360px;
+    overflow-y: hidden;
+
+  }
+
+  .product_image {
+    width:inherit;
+    height: auto;
+    align-items:none;
+    overflow-y: hidden;
+    transition: 0.5s;
+
+  }
+
+  #product_image_text {
+    width: inherit;
+    height: inherit;
+    border: 1px solid black;
+    padding: 2px;
+  }
+
+
+
+  
 }

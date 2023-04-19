@@ -28,7 +28,7 @@
   padding:30px;
 } 
 
-#special_area > div:nth-child(2) > h2 {
+#special_area > div:nth-child(2) > h3 {
   margin: 0;
   overflow-y: hidden;
 } 
@@ -39,5 +39,44 @@
   line-height: 20px;
   margin: 0;
 } 
+
+@media screen and (max-width:768px) {
+  #special_area {
+    flex-direction: column;
+  }
+
+  #special_area > div:nth-child(1) {
+    width:100%;
+    height:600px;
+    background-size:cover;
+    background-image: url(../ASSET/GM_SECTION2_MB.avif);
+    
+  } 
+  
+  #special_area > div:nth-child(2) {
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:30px;
+  } 
+  #special_area > div:nth-child(2) > h3 {
+    margin: 0;
+    overflow-y: hidden;
+    font-size: 17px;
+    font-weight: bold;
+  } 
+  
+  
+  #special_area > div:nth-child(2) > p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+  } 
+  
+}
 
 

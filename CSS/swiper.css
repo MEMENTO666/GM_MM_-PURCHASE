@@ -1,54 +1,54 @@
 .swiper {
   width:900px;
-  height:120px;
-  border: 1px solid black;
+  height:123px;
+  /* border: 1px solid black; */
   position: relative;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .swiper > li {
-  width:65px;
-  height:65px;
-  background-color: gray;
-  list-style: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  margin: 10px;
-  background-position: center;
-  background-size: cover;
-  background-repeat:no-repeat;
-  flex-direction: column;
-  cursor: pointer;
-
-}
-
-.swiper > li > div > p{
- margin: 0;
-
-}
-
-
-
-.swiper > li:hover {
-  border-style: double;
-  /* transition: 2s; */
-}
-
-.swiper > li > div {
-  width:65px;
-  height:20px;
   /* border: 1px solid red; */
-  position: absolute;
-  bottom: 0;
-  font-size: 12px;
-  text-align: center;
-  color: rgb(63, 63, 63);
+  flex-direction: column;
+  margin: 10px;
+  height:fit-content;
+ 
+}
+
+.swiper > li > div:nth-child(1) {
+  width:70px;
+  height: 70px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  overflow-y: hidden;
 
 }
+
+.swiper > li > div > img {
+  width:inherit;
+  height:inherit;
+}
+
+.swiper > li > div:nth-child(2) {
+  width:70px;
+  height:auto;
+  /* border: 1px solid black; */
+  font-size: 11px;
+  text-align: center;
+  color: rgb(95, 95, 95);
+
+}
+
+.swiper > li > div:nth-child(2) > p {
+  margin: 0;
+  
+}
+
+
 
 
 
