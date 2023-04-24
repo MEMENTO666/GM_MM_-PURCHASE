@@ -23,15 +23,16 @@
   position:relative;
   opacity: 1;
   margin: 0;
+  padding: 0;
 }
 
-.menu_list > li {
+
+.menu_list > li > p {
   font-size: 13px;
-  margin: 10px;
+  margin:10px;
   cursor: pointer;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.836);
-  
+  color: black;
 }
 
 #logo {
@@ -44,11 +45,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: 150px;
 }
 
-#logo > img {
-  width:150px;
+#logo > a >img {
+  width:160px;
 }
 
 #right_menu {
@@ -117,8 +117,14 @@
   #right_menu {
     width:160px;
   }
+
   #logo {
-    width:110px;
+    width:130px;
+    padding-left: 10px;
+  }
+
+  #logo > a > img {
+    width:120px;
   }
 
   #right_menu > div {
